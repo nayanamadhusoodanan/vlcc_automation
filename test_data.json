@@ -1,0 +1,27 @@
+{
+    "TC001": {
+        "login_button": "Login",
+        "login_msg": "You are logged in!",
+        "password": {
+            "data": "test@123",
+            "element": "id=password"
+        },
+        "test": "data",
+        "test_id": "TC001",
+        "test_identifier": "Login",
+        "test_title": "Login to the test application",
+        "user": {
+            "data": "vishnu.h@thinkpalm.info",
+            "element": "id=email"
+        }
+    },
+    "TC002": {
+        "logout_btn1": "id=navbarDropdown",
+        "logout_cnf": "xpath=//a[@href='http://localhost:8000/logout']",
+        "logout_form": "id=logout-form",
+        "test_id": "TC002",
+        "test_identifier": "Login",
+        "test_title": "Logout from the test application",
+        "welcome_msg": "Laravel"
+    }
+}

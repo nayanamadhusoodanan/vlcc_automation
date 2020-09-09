@@ -1,0 +1,40 @@
+{
+    "mysql":
+        {
+            "host":"127.0.0.1",
+            "port":"3306",
+            "user":"automation",
+            "password":"automation",
+            "database":"automation"
+        },
+    "app_settings":
+        {
+            "name":"VLCC",
+            "build_number":"0.1",
+            "environment": "dev",
+            "base_url": "http://localhost:8000",
+            "browser": "chrome",
+            "app_launcher_path": "src/ExecutionScript/AppLauncher.robot",
+            "suite_header_path": "src/SuiteTemplate/header.txt",
+            "suite_footer_path": "src/SuiteTemplate/footer.txt",
+            "test_data": "test_data.json",
+            "excel_path": "test_data.xlsx"
+        },
+    "jira":
+        {
+            "host":"127.0.0.1",
+            "port":"3306",
+            "user":"root",
+            "password":"root",
+            "auth":"automation",
+            "result_update":"no",
+            "file_bug":"no"
+        },
+    "app_helper":
+        {
+            "api_url":"http://localhost:8000/api/upload-report",
+            "key":"xhyt4eb7vd8dg9snf0dgjj3ghd6sz9ghf0dhgs4",
+            "report_update":"no"
+        }
+
+}
